@@ -13,7 +13,7 @@ const DemoCarousel = () => (
     transitionTime={800}>
     <div>
       <img src="https://images.pexels.com/photos/2399097/pexels-photo-2399097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt='happy kid'/>
-      <p className='legend'>Legend 1</p>
+      <p className='legend'>Legend 12</p>
     </div>
     <div>
       <img src="https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt='friends laughing'/>
