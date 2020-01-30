@@ -5,8 +5,11 @@ import { ReactComponent as Search } from '../../assets/search.svg';
 import { Link } from 'react-router-dom';
 import './header.styles.scss'
 
+
+
 const Header = () => (
   <div className='header'>
+  <div className='black-bar'></div>
     <div className='upperHeader'>
       <Link className='logo-container' to='/'>
         FLEXI LOGO
@@ -22,10 +25,10 @@ const Header = () => (
       </div>
     </div>
     <div className='lowerHeader'>
-      <Link className='category' to='/shop'>Caballeros</Link>
-      <Link className='category' to='/shop'>Damas</Link>
-      <Link className='category' to='/shop'>Niños</Link>
-      <Link className='category' to='/shop'>Ofertas</Link>
+      <Link className='category' to='/shop'>CABALLEROS</Link>
+      <Link className='category' to='/shop'>DAMAS</Link>
+      <Link className='category' to='/shop'>NIÑOS</Link>
+      <Link className='category' to='/shop'>OFERTAS</Link>
     </div>
   </div>
 )
